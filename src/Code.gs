@@ -3,7 +3,7 @@
 const consumerKey = 'OBHGSZUPAM7jWA7rDBuPZAEJ6'
 const consumerSecret = 'nF3HE0lyMZkg1i0cwu5j27gBbmutny1PD25c6fXBOugqPsWS07'
 
-const client = TwitterClient.getInstance(consumerKey, consumerSecret)
+const client = TwitterClient2.getInstance(consumerKey, consumerSecret)
 
 /**
  * ①Twitterで作ったアプリに登録するための callbackUrl を取得する
