@@ -4,9 +4,9 @@
     "enabledAdvancedServices" : [],
     "libraries" : [
       {
-        "userSymbol" : "TwitterClient",
-        "version" : "27",
-        "libraryId" : "1fHCjI78BV3o7nGx2l0lJ7WXM49VFbobGDNdFGqAoVFZyRJ2kepQYzVLd"
+        "userSymbol" : "TwitterClient2",
+        "version" : "20",
+        "libraryId" : "1VSmE-pfiIv6OBa1O1OMorDUI5Cv50s7KM9bg-PwvQlFIXk8ghuH4DrHl"
       }
     ]
   },
