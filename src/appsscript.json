@@ -1,0 +1,12 @@
+{
+  "timeZone" : "Asia/Tokyo",
+  "dependencies" : {
+    "enabledAdvancedServices" : []
+  },
+  "webapp" : {
+    "access" : "ANYONE_ANONYMOUS",
+    "executeAs" : "USER_DEPLOYING"
+  },
+  "exceptionLogging" : "STACKDRIVER",
+  "runtimeVersion" : "V8"
+}
