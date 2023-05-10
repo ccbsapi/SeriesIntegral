@@ -1,6 +1,6 @@
 'use strict';
 
-const { consumerKey, consumerSecret } = PropertiesService.getScriptProperties();
+const { consumerKey, consumerSecret } = PropertiesService.getScriptProperties().getProperties();
 
 const client = TwitterClient2.getInstance(consumerKey, consumerSecret)
 
