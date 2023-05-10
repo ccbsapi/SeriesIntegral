@@ -30,7 +30,7 @@ function authorize () {
 function postTweet () {
   // pickUpTweetInOrderは用意しました
   const message = "メディアツイート";
-  const media = [1656307125419921408]
+  const media = ["1656307125419921408"];
   client.postTweet(message,null,media);
 }
 
