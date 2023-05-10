@@ -1,7 +1,6 @@
 'use strict';
 
-const consumerKey = 'OBHGSZUPAM7jWA7rDBuPZAEJ6'
-const consumerSecret = 'nF3HE0lyMZkg1i0cwu5j27gBbmutny1PD25c6fXBOugqPsWS07'
+const { consumerKey, consumerSecret } = PropertiesService.getScriptProperties();
 
 const client = TwitterClient2.getInstance(consumerKey, consumerSecret)
 
@@ -21,6 +20,7 @@ function getCallbackUrl() {
 function authorize () {
   client.authorize()
 }
+
 
 
 /**
