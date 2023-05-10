@@ -1,0 +1,43 @@
+# 下記の記事のコードを引用し、一部自分の環境に合うように編集して書きました
+# refer: https://dev.classmethod.jp/articles/github-actions-gas-deploy/
+name: deployment
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deployment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+      - name: node install
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+      - name: install clasp
+        run: npm install -g @google/clasp
+      - name: create clasprc.json
+        run: |
+          cat << EOS > ~/.clasprc.json
+          {
+            "token": {
+              "access_token": "${{ secrets.ACCESS_TOKEN }}",
+              "scope": "https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/drive.metadata.readonly https://www.googleapis.com/auth/script.projects https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/drive.file https://www.googleapis.com/auth/service.management https://www.googleapis.com/auth/script.deployments https://www.googleapis.com/auth/logging.read https://www.googleapis.com/auth/script.webapp.deploy openid",
+              "token_type": "Bearer",
+              "id_token": "${{ secrets.ID_TOKEN }}",
+              "expiry_date": 1641493053167,
+              "refresh_token": "${{ secrets.REFRESH_TOKEN }}"
+            },
+            "oauth2ClientSettings": {
+              "clientId": "${{ secrets.CLIENT_ID }}",
+              "clientSecret": "${{ secrets.CLIENT_SECRET }}",
+              "redirectUri": "http://localhost"
+            },
+            "isLocalCreds": false
+          }
+          EOS
+      - name: deploy
+        run: clasp push -f
