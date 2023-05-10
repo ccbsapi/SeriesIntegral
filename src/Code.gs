@@ -2,8 +2,8 @@
 const accessTokenUrl = "https://api.twitter.com/oauth/access_token";
 const requestTokenUrl = "https://api.twitter.com/oauth/request_token";
 const authorizationUrl = "https://api.twitter.com/oauth/authorize";
-const consumerKey = "xxxxxxxx"; // Consumer Key をセット
-const consumerSecret = "xxxxxxxx"; // Consumer Secret をセット
+const consumerKey = "OBHGSZUPAM7jWA7rDBuPZAEJ6"; // Consumer Key をセット
+const consumerSecret = "nF3HE0lyMZkg1i0cwu5j27gBbmutny1PD25c6fXBOugqPsWS07"; // Consumer Secret をセット
 const serviceName = 'twitter';
 
 // OAuth1.0の認証で、Twitterにアクセスする関数
@@ -72,13 +72,7 @@ function makeRequest(url, options) {
 
 // スプレッドシート内のデータを取得してツイートする関数
 function tweets() {
-  // スプレッドシートからセルの値をランダムで取得
-  const sheet = SpreadsheetApp.getActiveSheet();
-  const min = Math.ceil(1);
-  const max = Math.floor(5);
-  const i = Math.floor(Math.random() * (max - min + 1) + min); 
-  const cell = "sheet01!A" + i;
-  const value = sheet.getRange(cell).getValue();
+  const value = "テストツイート";
   
   // ツイートするAPIリクエスト
   const url = "https://api.twitter.com/2/tweets";
