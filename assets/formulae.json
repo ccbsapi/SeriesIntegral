@@ -12,6 +12,9 @@
       "images" : ["zeta12.jpg"],
       "text" : "多重ゼータスター値の特殊値"
     },
+    "3-1" : {
+      "images" : ["Dixon1.jpg"]
+    },
     "4-1" : {
       "images" : ["theta1.jpg"],
       "text" : "テータ関数の特殊値"
