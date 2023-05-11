@@ -31,7 +31,7 @@ const client = TwitterClient2.getInstance(consumerKey, consumerSecret)
      // pickUpTweetInOrderは用意しました
      const message = "メディアツイート";
      const imageUrl = "https://raw.githubusercontent.com/ccbsapi/SeriesIntegral/main/assets/img/series/basel.jpg";
-     const media = [uploadMedia(UrlFetchApp.fetch(imageUrl))];
+     const media = [client.uploadMedia(UrlFetchApp.fetch(imageUrl))];
      client.postTweet(message,null,media);
    }
    
