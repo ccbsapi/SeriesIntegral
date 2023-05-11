@@ -3,6 +3,10 @@
     "1-1" : {
       "images" : ["basel.jpg"],
       "text" : "バーゼル問題"
+    },
+    "1-2" : {
+      "images" : ["Leibniz.jpg"],
+      "text" : "ライプニッツ級数"
     }
   },
   "integral":{
