@@ -31,7 +31,7 @@ const client = TwitterClient2.getInstance(consumerKey, consumerSecret)
      // pickUpTweetInOrderは用意しました
      const message = "メディアツイート";
      const imageUrl = "https://raw.githubusercontent.com/ccbsapi/SeriesIntegral/main/assets/img/series/basel.jpg";
-     const media = [client.uploadMedia(UrlFetchApp.fetch(imageUrl))];
+     const media = [uploadMedia(UrlFetchApp.fetch(imageUrl))];
      client.postTweet(message,null,media);
    }
    
@@ -57,7 +57,7 @@ const client = TwitterClient2.getInstance(consumerKey, consumerSecret)
       * * * Googleドライブから画像を取得してアップロード
       * * * @return {String}
       * * */
-      TwitterClient2.prototype.uploadMedia = function(file) {
+      function uploadMedia(file) {
         // ファイルアップロード処理
         const blob = file.getBlob();
         const uploadData = blob.getBytes();
@@ -75,7 +75,7 @@ const client = TwitterClient2.getInstance(consumerKey, consumerSecret)
         }
         console.log(initParams);
         console.log('INIT');
-        const initResult = this.postRequestForm(uploadUrl, initParams);
+        const initResult = client.postRequestForm(uploadUrl, initParams);
         // APPEND
         for (let i=0; i< segmentMax; i++) {
           const sliceData = uploadData.slice(segment * i, segment * (i + 1)); 
@@ -86,7 +86,7 @@ const client = TwitterClient2.getInstance(consumerKey, consumerSecret)
             segment_index: i
           }
           console.log('APPEND');
-          this.postRequestForm(uploadUrl, appendParams);
+          client.postRequestForm(uploadUrl, appendParams);
         }
         // FINALIZE
         const finalizeParams = {
@@ -94,7 +94,7 @@ const client = TwitterClient2.getInstance(consumerKey, consumerSecret)
           media_id: initResult.media_id_string,
         }
         console.log('FINALIZE');
-        this.postRequestForm (uploadUrl, finalizeParams);
+        client.postRequestForm (uploadUrl, finalizeParams);
         if (isVideo) {
           for (let i = 0; i < 10; i++) {
             // STATUS
@@ -103,7 +103,7 @@ const client = TwitterClient2.getInstance(consumerKey, consumerSecret)
               media_id: initResult.media_id_string,
             }
             console.log('STATUS');
-            const statusResult = this.getRequest(uploadUrl, statusParams); 
+            const statusResult = client.getRequest(uploadUrl, statusParams); 
             if (statusResult.processing_info) {
               console.log(statusResult.processing_info.progress_percent + '%完了');
               if (statusResult.processing_info.state === 'succeeded')  break;
