@@ -27,14 +27,14 @@ function authorize () {
 * * * * * * */
 function postTweet () {
   const formulae = JSON.parse(UrlFetchApp.fetch(githubroot+'assets/formulae.json').getContentText());
-  const type = "series";
+  const type = ["series","integral"][Math.floor(2 * Math.random())];
   const dataList = formulae[type];
   const numbers = Object.keys(dataList);
   const number = numbers[Math.floor(Math.random() * numbers.length)];
   const formula = dataList[number];
   Logger.log(formula);
   const {text,images} = formula;
-  const message = 'No.'+number+' : '+(text || '');
+  const message = type+' '+number+' : '+(text || '');
   const media = images.map(filename => {
     const imgurl = `${githubroot}assets/img/${type}/${filename}`
     Logger.log(imgurl)
