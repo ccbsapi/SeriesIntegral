@@ -32,6 +32,7 @@ function postTweet () {
   const numbers = Object.keys(dataList);
   const number = numbers[Math.floor(Math.random() * numbers.length)];
   const formula = dataList[number];
+  Logger.log('formula',formula);
   const {text,images} = formula;
   const message = 'No.'+number+' : '+(text || '');
   const media = images.map(filename => uploadMedia(```assets/img/${type}/${filename}```));
