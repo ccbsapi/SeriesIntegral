@@ -16,6 +16,10 @@
     "1-2" : {
       "images" : ["Dirichlet.jpg"],
       "text" : "ディリクレ積分"
+    },
+    "2-1" : {
+      "images" : ["beta5.jpg"],
+      "text" : ""
     }
   }
 }
