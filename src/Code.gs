@@ -34,7 +34,7 @@ function postTweet () {
   const formula = dataList[number];
   const {text,images} = formula;
   const message = 'No.'+number+' : '+(text || '');
-  const media = images.map(filename => uploadMedia("assets/img/${type}/${filename}"));
+  const media = images.map(filename => uploadMedia(```assets/img/${type}/${filename}```));
   client.postTweet(message,null,media);
 }
 
