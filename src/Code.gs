@@ -57,7 +57,7 @@ const client = TwitterClient2.getInstance(consumerKey, consumerSecret)
       * * * Googleドライブから画像を取得してアップロード
       * * * @return {String}
       * * */
-      function uploadMedia(file) {
+      TwitterClient2.prototype.uploadMedia = function(file) {
         // ファイルアップロード処理
         const blob = file.getBlob();
         const uploadData = blob.getBytes();
