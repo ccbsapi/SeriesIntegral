@@ -81,7 +81,7 @@ const client = TwitterClient2.getInstance(consumerKey, consumerSecret)
           const appendParams = {
             command: 'APPEND',
             media_id: initResult.media_id_string,
-            media_data: Utilities.base64 Encode(sliceData), 
+            media_data: Utilities.base64Encode(sliceData), 
             segment_index: i
           }
           console.log('APPEND');
