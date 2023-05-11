@@ -7,6 +7,10 @@
     "1-2" : {
       "images" : ["Leibniz.jpg"],
       "text" : "ライプニッツ級数"
+    },
+    "2-1" : {
+      "images" : ["zeta12.jpg"],
+      "text" : "多重ゼータスター値の特殊値"
     }
   },
   "integral":{
