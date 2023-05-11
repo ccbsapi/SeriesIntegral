@@ -21,9 +21,11 @@
       "images" : ["Dirichlet.jpg"],
       "text" : "ディリクレ積分"
     },
+    "1-3" : {
+      "images" : ["dayint5.jpg"]
+    },
     "2-1" : {
-      "images" : ["beta5.jpg"],
-      "text" : ""
+      "images" : ["beta5.jpg"]
     }
   }
 }
