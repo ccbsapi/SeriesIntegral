@@ -69,7 +69,7 @@ const client = TwitterClient2.getInstance(consumerKey, consumerSecret)
         const isVideo = mimeType.match(/video/);
         const initParams = {
           command: 'INIT',
-          total_bytes: file.getSize(),
+          total_bytes: uploadData.length ,
           media_type: mimeType,
           media_category: isVideo ? 'amplify_video' : 'tweet_image'
         }
