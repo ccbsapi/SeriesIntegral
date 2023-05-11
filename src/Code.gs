@@ -38,7 +38,7 @@ function postTweet () {
   const media = images.map(filename => {
     const imgurl = `${githubroot}assets/img/${type}/${filename}`
     Logger.log(imgurl)
-    return uploadMedia(imgurl);
+    return uploadMedia(UrlFetchApp(imgurl));
   });
   client.postTweet(message,null,media);
 }
