@@ -64,11 +64,11 @@ const client = TwitterClient2.getInstance(consumerKey, consumerSecret)
         const segmentMax = Math.ceil(uploadData.length / segment);
         const uploadUrl = 'https://upload.twitter.com/1.1/media/upload.json';
         // INIT
-        const mimeType = fileByApp.getMimeType();
+        const mimeType = file.getMimeType();
         const isVideo = mimeType.match(/video/);
         const initParams = {
           command: 'INIT',
-          total_bytes: fileByApp.getSize(),
+          total_bytes: file.getSize(),
           media_type: mimeType,
           media_category: isVideo ? 'amplify_video' : 'tweet_image'
         }
