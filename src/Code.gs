@@ -59,12 +59,13 @@ const client = TwitterClient2.getInstance(consumerKey, consumerSecret)
       * * */
       function uploadMedia(file) {
         // ファイルアップロード処理
-        const uploadData = file.getBlob().getBytes();
+        const blob = file.getBlob();
+        const uploadData = blob.getBytes();
         const segment = 5000000; // 5.0MB
         const segmentMax = Math.ceil(uploadData.length / segment);
         const uploadUrl = 'https://upload.twitter.com/1.1/media/upload.json';
         // INIT
-        const mimeType = file.getMimeType();
+        const mimeType = blob.getContentType();
         const isVideo = mimeType.match(/video/);
         const initParams = {
           command: 'INIT',
