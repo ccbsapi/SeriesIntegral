@@ -8,6 +8,10 @@
   "integral":{
     "1-1" : {
       "images" : ["arctan_simple.jpg"]
+    },
+    "1-2" : {
+      "images" : ["Dirichlet.jpg"],
+      "text" : "ディリクレ積分"
     }
   }
 }
