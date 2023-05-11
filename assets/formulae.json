@@ -27,6 +27,15 @@
     "1-4" : {
       "images" : ["dayint6.jpg"]
     },
+    "1-5" : {
+      "images" : ["dayint11.jpg"]
+    },
+    "1-6" : {
+      "images" : ["dayint13.jpg"]
+    },
+    "1-7" : {
+      "images" : ["dayint25.jpg"]
+    },
     "2-1" : {
       "images" : ["beta5.jpg"]
     }
