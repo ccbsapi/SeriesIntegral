@@ -55,6 +55,18 @@
     "1-8" : {
       "images" : ["dayint37.jpg"]
     },
+    "1-9" : {
+      "images" : ["int_n1.jpg"]
+    },
+    "1-10" : {
+      "images" : ["int_n2.jpg"]
+    },
+    "1-11" : {
+      "images" : ["int_n3.jpg"]
+    },
+    "1-12" : {
+      "images" : ["int_n4.jpg"]
+    },
     "2-1" : {
       "images" : ["beta5.jpg"]
     }
