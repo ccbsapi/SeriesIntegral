@@ -16,6 +16,7 @@ GAS側ではScriptPropertiesとして```consumerKey```,```consumerSecret```を�
 - $\mathrm{d} x$ の $\mathrm{d}$ は ```\mathrm{d}``` を使う。
 - 逆関数は ```arc``` や ```ar``` を使わずに $-1$ 乗を使う。 ex) $\arcsin$ ではなく $\sin^{-1}$
 - 自然対数は $\log$ ではなく $\ln$ を使う。
+- 二項係数は $\displaystyle \binom{2n}{n}$ を用いる。
 
 # 識別子の振り分け
 各ツイート内容には識別子(formulae.jsonのkey)を割り当てる。
