@@ -24,6 +24,10 @@
     "2-2" : {
       "images" : ["zeta2binom.jpg"]
     },
+    "2-3" : {
+      "images" : ["ser_n3.jpg"],
+      "text" : "ディリクレのベータ関数の特殊値"
+    },
     "3-1" : {
       "images" : ["Dixon1.jpg"]
     },
