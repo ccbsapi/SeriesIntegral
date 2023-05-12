@@ -11,6 +11,12 @@
     "1-3" : {
       "images" : ["csc2part.jpg"]
     },
+    "1-4" : {
+      "images" : ["ser_n1.jpg"]
+    },
+    "1-5" : {
+      "images" : ["ser_n2.jpg"]
+    },
     "2-1" : {
       "images" : ["zeta12.jpg"],
       "text" : "多重ゼータスター値の特殊値"
