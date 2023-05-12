@@ -67,8 +67,17 @@
     "1-12" : {
       "images" : ["int_n4.jpg"]
     },
+    "1-13" : {
+      "images" : ["int_n7.jpg"]
+    },
     "2-1" : {
       "images" : ["beta5.jpg"]
+    },
+    "2-2" : {
+      "images" : ["int_n5.jpg"]
+    },
+    "2-3" : {
+      "images" : ["int_n6.jpg"]
     }
   }
 }
