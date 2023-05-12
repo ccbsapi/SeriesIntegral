@@ -28,6 +28,9 @@
       "images" : ["ser_n3.jpg"],
       "text" : "ディリクレのベータ関数の特殊値"
     },
+    "2-4" : {
+      "images" : ["ser_b1.jpg"]
+    },
     "3-1" : {
       "images" : ["Dixon1.jpg"]
     },
@@ -37,6 +40,9 @@
     },
     "4-2" : {
       "images" : ["logeta.jpg"]
+    },
+    "4-3" : {
+      "images" : ["coshprod.jpg"]
     }
   },
   "integral":{
