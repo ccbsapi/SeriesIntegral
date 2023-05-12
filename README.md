@@ -1,5 +1,5 @@
 # SeriesIntegral
-級数・積分bot
+Twitterの[級数・積分bot](https://twitter.com/SeriesIntegral)のプログラム
 
 # GASとの連携
 ```clasp```とGithub Actionsを使用してGoogle Apps Scriptに反映.
