@@ -26,7 +26,6 @@ function authorize () {
 * * * * * * * ※この処理では「シート1」から投稿内容を取得してツイートしてます
 * * * * * * */
 function postTweet () {
-  //const formulae = JSON.parse(UrlFetchApp.fetch(githubroot+'assets/formulae.json').getContentText());
   const type = ["series","integral"][Math.floor(2 * Math.random())];
   const dataList = JSON.parse(UrlFetchApp.fetch(`${githubroot}assets/${type}.json`).getContentText());
   const numbers = Object.keys(dataList);
