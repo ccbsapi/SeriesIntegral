@@ -8,7 +8,7 @@ GAS側ではScriptPropertiesとして```consumerKey```,```consumerSecret```を�
 # 数式データの管理
 ```/assets/```内に色々なデータを置く。```/src/```は**弄らない** (GASに反映されてしまう)
 
-ツイートは```/assets/formulae.json```からランダムに行われる。
+ツイートは```/assets/series.json```か```/assets/integral.json```からランダムに行われる。
 
 # コーディング規約
 数式を表示する際のルールについて
