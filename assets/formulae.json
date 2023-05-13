@@ -86,6 +86,9 @@
     "1-13" : {
       "images" : ["int_n7.jpg"]
     },
+    "1-14" : {
+      "images" : ["logsinvar.jpg"]
+    },
     "2-1" : {
       "images" : ["beta5.jpg"]
     },
@@ -94,6 +97,9 @@
     },
     "2-3" : {
       "images" : ["int_n6.jpg"]
+    },
+    "2-4" : {
+      "images" : ["Zudilinexp.jpg"]
     }
   }
 }
