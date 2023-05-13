@@ -31,8 +31,20 @@
     "2-4" : {
       "images" : ["ser_b1.jpg"]
     },
+    "2-5" : {
+      "images" : ["MTV4dual.jpg"]
+    },
+    "2-5" : {
+      "images" : ["zudilin1.jpg"]
+    },
+    "2-6" : {
+      "images" : ["Zudilin2.jpg"]
+    },
     "3-1" : {
       "images" : ["Dixon1.jpg"]
+    },
+    "3-2" : {
+      "images" : ["rampi1.jpg"]
     },
     "4-1" : {
       "images" : ["theta1.jpg"],
