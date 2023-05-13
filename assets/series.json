@@ -16,6 +16,9 @@
   "1-5" : {
     "images" : ["ser_n2.jpg"]
   },
+  "1-6" : {
+    "images" : ["ser_n4.jpg"]
+  },
   "2-1" : {
     "images" : ["zeta12.jpg"],
     "text" : "多重ゼータスター値の特殊値"
