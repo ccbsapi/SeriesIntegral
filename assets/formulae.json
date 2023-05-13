@@ -43,6 +43,9 @@
     },
     "4-3" : {
       "images" : ["coshprod.jpg"]
+    },
+    "4-4" : {
+      "images" : ["coshsum.jpg"]
     }
   },
   "integral":{
