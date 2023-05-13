@@ -104,6 +104,21 @@
     "1-14" : {
       "images" : ["logsinvar.jpg"]
     },
+    "1-15" : {
+      "images" : ["doubleDirichlet.jpg"]
+    },
+    "1-16" : {
+      "images" : ["dayint43.jpg"]
+    },
+    "1-17" : {
+      "images" : ["dayint50.jpg"]
+    },
+    "1-18" : {
+      "images" : ["dayint51.jpg"]
+    },
+    "1-19" : {
+      "images" : ["dayint53.jpg"]
+    },
     "2-1" : {
       "images" : ["beta5.jpg"]
     },
