@@ -1,0 +1,72 @@
+{
+  "1-1" : {
+    "images" : ["arctan_simple.jpg"]
+  },
+  "1-2" : {
+    "images" : ["Dirichlet.jpg"],
+    "text" : "ディリクレ積分"
+  },
+  "1-3" : {
+    "images" : ["dayint5.jpg"]
+  },
+  "1-4" : {
+    "images" : ["dayint6.jpg"]
+  },
+  "1-5" : {
+    "images" : ["dayint11.jpg"]
+  },
+  "1-6" : {
+    "images" : ["dayint13.jpg"]
+  },
+  "1-7" : {
+    "images" : ["dayint25.jpg"]
+  },
+  "1-8" : {
+    "images" : ["dayint37.jpg"]
+  },
+  "1-9" : {
+    "images" : ["int_n1.jpg"]
+  },
+  "1-10" : {
+    "images" : ["int_n2.jpg"]
+  },
+  "1-11" : {
+    "images" : ["int_n3.jpg"]
+  },
+  "1-12" : {
+    "images" : ["int_n4.jpg"]
+  },
+  "1-13" : {
+    "images" : ["int_n7.jpg"]
+  },
+  "1-14" : {
+    "images" : ["logsinvar.jpg"]
+  },
+  "1-15" : {
+    "images" : ["doubleDirichlet.jpg"]
+  },
+  "1-16" : {
+    "images" : ["dayint43.jpg"]
+  },
+  "1-17" : {
+    "images" : ["dayint50.jpg"]
+  },
+  "1-18" : {
+    "images" : ["dayint51.jpg"]
+  },
+  "1-19" : {
+    "images" : ["dayint53.jpg"]
+  },
+  "2-1" : {
+    "images" : ["beta5.jpg"]
+  },
+  "2-2" : {
+    "images" : ["int_n5.jpg"]
+  },
+  "2-3" : {
+    "images" : ["int_n6.jpg"]
+  },
+  "2-4" : {
+    "images" : ["Zudilinexp.jpg"]
+  }
+}
