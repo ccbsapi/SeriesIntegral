@@ -20,6 +20,10 @@ GAS側ではScriptPropertiesとして```consumerKey```,```consumerSecret```を�
 - フィボナッチ数は $F_n$ を用いる。
 - 二項係数は $\displaystyle \binom{2n}{n}$ を用いる。
 
+## 定数の表記
+- 黄金比 $\frac{-1+\sqrt 5}2$ は $\phi$ ではなく $\varphi$ で表す。
+- カタラン定数は $C$ や $G$ ではなく $\beta(2)$ と表す。
+
 # 識別子の振り分け
 各ツイート内容には識別子(formulae.jsonのkey)を割り当てる。
 以下を大まかなキーワードとする(多重ポリログはゼータ扱い)。
