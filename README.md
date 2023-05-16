@@ -21,7 +21,7 @@ GAS側ではScriptPropertiesとして```consumerKey```,```consumerSecret```を�
 - 二項係数は $\displaystyle \binom{2n}{n}$ を用いる。
 
 ## 定数の表記
-- 黄金比 $\frac{-1+\sqrt 5}2$ は $\phi$ ではなく $\varphi$ で表す。
+- 黄金比 $\displaystyle\frac{-1+\sqrt 5}2$ は $\phi$ ではなく $\varphi$ で表す。
 - カタラン定数は $C$ や $G$ ではなく $\beta(2)$ と表す。
 
 # 識別子の振り分け
