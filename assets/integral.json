@@ -75,7 +75,16 @@
   "2-4" : {
     "images" : ["Zudilinexp.jpg"]
   },
+  "2-5" : {
+    "images" : ["int_n12.jpg"]
+  },
+  "2-6" : {
+    "images" : ["int_n13.jpg"]
+  },
   "5-1" : {
     "images" : ["int_n9.jpg"]
+  },
+  "5-2" : {
+    "images" : ["int_n11.jpg"]
   }
 }
