@@ -60,6 +60,9 @@
   "1-20" : {
     "images" : ["int_n8.jpg"]
   },
+  "1-21" : {
+    "images" : ["int_n10.jpg"]
+  },
   "2-1" : {
     "images" : ["beta5.jpg"]
   },
