@@ -54,6 +54,9 @@
   "3-2" : {
     "images" : ["rampi1.jpg"]
   },
+  "3-3" : {
+    "images" : ["ser_n7.jpg"]
+  },
   "4-1" : {
     "images" : ["theta1.jpg"],
     "text" : "テータ関数の特殊値"
