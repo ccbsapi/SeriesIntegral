@@ -72,5 +72,13 @@
   },
   "4-4" : {
     "images" : ["coshsum.jpg"]
+  },
+  "4-5" : {
+    "images" : ["Jacobi2square.jpg"],
+    "text" : "Jacobiの二平方定理"
+  },
+  "4-6" : {
+    "images" : ["Jacobi4square.jpg"],
+    "text" : "Jacobiの四平方定理"
   }
 }
