@@ -48,6 +48,10 @@
   "2-6" : {
     "images" : ["Zudilin2.jpg"]
   },
+  "2-7" : {
+    "images" : ["MSW.png"],
+    "text" : "多重調和和の離散反復積分表示"
+  },
   "3-1" : {
     "images" : ["Dixon1.jpg"]
   },
