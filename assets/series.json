@@ -40,9 +40,6 @@
     "images" : ["ser_b1.jpg"]
   },
   "2-5" : {
-    "images" : ["MTV4dual.jpg"]
-  },
-  "2-5" : {
     "images" : ["zudilin1.jpg"]
   },
   "2-6" : {
@@ -51,6 +48,9 @@
   "2-7" : {
     "images" : ["MSW.png"],
     "text" : "多重調和和の離散反復積分表示"
+  },
+  "2-8" : {
+    "images" : ["MTV4dual.jpg"]
   },
   "3-1" : {
     "images" : ["Dixon1.jpg"]
@@ -84,5 +84,9 @@
   "4-6" : {
     "images" : ["Jacobi4square.jpg"],
     "text" : "Jacobiの四平方定理"
+  },
+  "5-1" : {
+    "images" : ["RogersRamanujan.png"],
+    "text" : "Rogers-Ramanujan恒等式"
   }
 }
