@@ -90,6 +90,9 @@
   "2-7" : {
     "images" : ["int_n16.jpg"]
   },
+  "3-1" : {
+    "images" : ["EllipticPeriod.png"]
+  },
   "5-1" : {
     "images" : ["int_n9.jpg"]
   },
