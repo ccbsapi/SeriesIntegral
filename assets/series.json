@@ -64,6 +64,9 @@
   "3-4" : {
     "images" : ["ser_n8.jpg"]
   },
+  "3-5" : {
+    "images" : ["GammaReflection.png"]
+  },
   "4-1" : {
     "images" : ["theta1.jpg"],
     "text" : "テータ関数の特殊値"
