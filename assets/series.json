@@ -85,6 +85,9 @@
     "images" : ["Jacobi4square.jpg"],
     "text" : "Jacobiの四平方定理"
   },
+  "4-7" : {
+    "images" : ["wp_deriv.png"]
+  },
   "5-1" : {
     "images" : ["RogersRamanujan.png"],
     "text" : "Rogers-Ramanujan恒等式"
