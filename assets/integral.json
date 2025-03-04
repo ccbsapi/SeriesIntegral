@@ -94,7 +94,10 @@
     "images" : ["int_n16.jpg"]
   },
   "3-1" : {
-    "images" : ["EllipticPeriod.png"]
+    "images" : ["EllipticPeriod.jpg"]
+  },
+  "4-1" : {
+    "images" : ["qProduct.png"]
   },
   "5-1" : {
     "images" : ["int_n9.jpg"]
