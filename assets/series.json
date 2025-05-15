@@ -28,6 +28,9 @@
   "1-9" : {
     "images" : ["sinProduct.png"]
   },
+  "1-10" : {
+    "images" : ["ser_n9.jpg"]
+  },
   "2-1" : {
     "images" : ["zeta12.jpg"],
     "text" : "多重ゼータスター値の特殊値"
